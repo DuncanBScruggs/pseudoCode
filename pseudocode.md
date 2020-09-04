@@ -1,5 +1,7 @@
 # Submarine depth control
-## 
+
+### Submarines use ballast tanks that fill with water to 
+
 
 START
 
@@ -9,7 +11,7 @@ START
 
     DISPLAY desiredDepth
 
-    READ depth gauge
+    READ depthGauge
 
     INIT currentDepth(y)
 
@@ -84,3 +86,15 @@ Function INIT
     CREATE DiveControls
 
 END
+
+Must have
+    Ability to adjust and maintain depth through use of ballast tanks and dive planes.
+
+Should Have
+
+
+Could Have
+    Way to more finely adjust depth.
+
+Wont Have
+    Way to turn the submarine horizontaly.
