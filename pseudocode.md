@@ -1,34 +1,30 @@
 # Submarine depth control
 ## 
 
-INIT depth gauge // 
-INIT diving planes //
-INIT propeller  //
-INIT ballast air vent //
-INIT ballast water vent //
-INIT compressed air //
-INIT dive controls //
-
-
-
 START
 
 INIT()
 
 Input desiredDepth(x)
+
 DISPLAY desiredDepth
 
 READ depth gauge
+
 INIT currentDepth(y)
+
 DISPLAY currentDepth
 
 IF desiredDepth > currentDepth
+
     increaseDepth(x,y)
 
 ELSE IF desiredDepth < currentDepth
+
     decreaseDepth(x,y)
 
 ELSE maintain currentDepth
+
 ENDIF
 
 END
@@ -65,7 +61,7 @@ Function decreaseDepth
 
     INIT sternDivePlanes  // dive planes angle the submarine
 
-    DECREMENT sternDivePlanes  // increases the angle of the planes to angle the submarine down
+    DECREMENT sternDivePlanes  // decreases the angle of the planes to angle the submarine up
         
     CALCULATE newballastWaterLevel = (ballastWaterLevel + compressedAir) //amount of compressed air needed to expell the excess water and be bouyant at desired depth
 
