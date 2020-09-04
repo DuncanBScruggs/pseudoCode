@@ -1,7 +1,5 @@
 # Submarine depth control
 
-### Submarines use ballast tanks that fill with water to 
-
 
 START
 
