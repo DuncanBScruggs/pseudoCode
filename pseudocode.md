@@ -1,6 +1,6 @@
 # Submarine depth control
 
-![Gif of Submarine ballast tank](https://github.com/DuncanBScruggs/PseudoCode/blob/master/gas_syst.gif?raw=true)
+![Gif of Submarine ballast tank](https://github.com/DuncanBScruggs/pseudoCode/blob/master/image/gas_syst.gif)
 
 START
 
