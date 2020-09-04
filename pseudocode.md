@@ -87,13 +87,16 @@ Function INIT
 END
 
 Must have
+
     Ability to adjust and maintain depth through use of ballast tanks and dive planes.
 
 Should Have
 
 
 Could Have
+
     Way to more finely adjust depth.
 
 Wont Have
+
     Way to turn the submarine horizontaly.
