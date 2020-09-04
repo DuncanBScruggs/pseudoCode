@@ -3,29 +3,29 @@
 
 START
 
-INIT()
+    INIT()
 
-Input desiredDepth(x)
+    Input desiredDepth(x)
 
-DISPLAY desiredDepth
+    DISPLAY desiredDepth
 
-READ depth gauge
+    READ depth gauge
 
-INIT currentDepth(y)
+    INIT currentDepth(y)
 
-DISPLAY currentDepth
+    DISPLAY currentDepth
 
-IF desiredDepth > currentDepth
+    IF desiredDepth > currentDepth
 
-    increaseDepth(x,y)
+        increaseDepth(x,y)
 
-ELSE IF desiredDepth < currentDepth
+    ELSE IF desiredDepth < currentDepth
 
-    decreaseDepth(x,y)
+        decreaseDepth(x,y)
 
-ELSE maintain currentDepth
+    ELSE maintain currentDepth
 
-ENDIF
+    ENDIF
 
 END
 
