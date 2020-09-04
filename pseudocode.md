@@ -34,6 +34,7 @@ ENDIF
 END
 
 Function increaseDepth
+
     READ desiredDepth
     READ currentDepth
     READ ballastWaterLevel
@@ -57,6 +58,7 @@ Function increaseDepth
     
 
 Function decreaseDepth
+
     READ desiredDepth
     READ currentDepth
     READ ballastWaterLevel
@@ -80,6 +82,7 @@ Function decreaseDepth
 
 
 Function INIT
+
     CREATE Submarine
     CREATE HelmsMan
     CREATE DiveControls
